@@ -3726,6 +3726,11 @@ isobject@^3.0.1:
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
   integrity sha1-TkMekrEalzFjaqH5yNHMvP2reN8=
 
+javascript-1flow-sdk@^0.0.11:
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/javascript-1flow-sdk/-/javascript-1flow-sdk-0.0.11.tgz#81b1b6c77802eb110e7736f7662794936e838ffb"
+  integrity sha512-TbZK3fSqo3QiOvNpbDs0xqJmGNtvL+mGo/Uh4oU1LX/7BtlEC52gyScu4JAYxTXBteD1KbvTzZLgvjftOhu4/g==
+
 javascript-stringify@^2.0.1:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/javascript-stringify/-/javascript-stringify-2.1.0.tgz#27c76539be14d8bd128219a2d731b09337904e79"

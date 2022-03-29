@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <button @click="open">Open Questionnaire</button>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
@@ -31,10 +32,26 @@
 </template>
 
 <script>
+import { oneflow } from 'javascript-1flow-sdk';
+
 export default {
   name: 'HelloWorld',
   props: {
-    msg: String
+    msg: String,
+  },
+  data(){
+    return {
+      flow: oneflow
+    }
+  },
+  created() {
+    this.flow.oneFlowInit('oneflow_prod_WQkBMcg8wRa5RVIldzm+Cb76vGr0AKmE0TbxffLKC5pXnew5UAW6zpPk9xNmuaI/Bne05FwfQMln9Vf5bB1Hpg==');
+  },
+  methods:{
+    open(){
+      console.log("Abrir");
+      this.flow.logEvent('open_findoor');
+    }
   }
 }
 </script>

@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "javascript-1flow-sdk": "^0.0.11",
     "vue": "^2.6.14"
   },
   "devDependencies": {
